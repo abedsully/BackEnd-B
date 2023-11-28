@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: justify;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+    background-color: bisque;
+    position: sticky;
+    top: 0;
+}
+
+#navbar img {
+    width: 10rem;
+    height: 5rem;
+}
+
+#navbar .nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+#navbar .nav-links a {
+    color: blue;
+    font-size: 20px;
+}
+
+#navbar .nav-links .active {
+    text-decoration: underline;
+}
+
+#navbar .nav-links a:hover {
+    color: red;
+    transition: 1s;
+}
+
+#navbar .login a {
+    border: 1px solid transparent;
+    padding: 1rem;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+}
+
+#navbar .login a:hover {
+    background-color: salmon;
+    transition: 1s ease-out;
+}
+
+
